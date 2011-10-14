@@ -13,6 +13,8 @@ DISTNAME=	fuse-freebsd-${PORTVERSION}
 
 COMMENT=	Kernel module for FUSE
 
+LICENSE=	BSD
+
 FETCH_ARGS=	-Fpr		# work around 302 redirect at guthub
 
 BUILD_DEPENDS=	fusefs-libs>2.4.1:${PORTSDIR}/sysutils/fusefs-libs

@@ -8,10 +8,12 @@
 PORTNAME=	fusefs-kmod
 DISTVERSION=	0.4.4
 CATEGORIES=	sysutils kld
+MASTER_SITES=	http://cloud.github.com/downloads/glk/fuse-freebsd/
 DISTNAME=	fuse-freebsd-${PORTVERSION}
 
-MAINTAINER=	amistry@am-productions.biz
 COMMENT=	Kernel module for FUSE
+
+FETCH_ARGS=	-Fpr		# work around 302 redirect at guthub
 
 BUILD_DEPENDS=	fusefs-libs>2.4.1:${PORTSDIR}/sysutils/fusefs-libs
 

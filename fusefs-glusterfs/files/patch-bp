@@ -1,0 +1,19 @@
+$NetBSD: patch-bp,v 1.4 2011/07/23 01:14:44 manu Exp $
+
+NetBSD does not have umount(2), but unmount(2)
+
+--- xlators/mgmt/glusterd/src/glusterd-op-sm.c.orig	2011-07-14 14:21:10.000000000 +0200
++++ xlators/mgmt/glusterd/src/glusterd-op-sm.c	2011-07-22 09:01:26.000000000 +0200
+@@ -49,8 +49,12 @@
+ #include "syscall.h"
+ #include "cli1.h"
+ #include "common-utils.h"
+ 
++#if defined(__NetBSD__) || defined(__FreeBSD__)
++#define umount(path) unmount(path,0)
++#endif
++
+ #include <sys/types.h>
+ #include <signal.h>
+ #include <sys/wait.h>
+ #define glusterd_op_start_volume_args_get(dict, volname, flags) \

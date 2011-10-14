@@ -1,0 +1,35 @@
+--- fuse-ext2/Makefile.am.orig	2009-11-09 16:31:37.000000000 +0000
++++ fuse-ext2/Makefile.am	2011-07-09 14:17:19.000000000 +0100
+@@ -39,6 +39,18 @@
+ 	-lfuse \
+ 	-lext2fs
+ endif
++if FREEBSD
++fuse_ext2_probe_CFLAGS = \
++	-Wall \
++	-DHAVE_CONFIG_H \
++	-I$(top_srcdir)/e2fsprogs-1.41.9
++
++fuse_ext2_probe_LDADD =	\
++	../e2fsprogs-1.41.9/ext2fs/libext2fs.a \
++	../e2fsprogs-1.41.9/et/libcom_err.a \
++	-L/usr/local/lib \
++	-lfuse
++endif
+ 
+ fuse_ext2_SOURCES =	\
+ 	fuse-ext2.h \
+@@ -183,6 +195,13 @@
+ 	-lfuse \
+ 	-lext2fs
+ endif
++if FREEBSD
++fuse_ext2_LDADD = \
++	../e2fsprogs-1.41.9/ext2fs/libext2fs.a	\
++	../e2fsprogs-1.41.9/et/libcom_err.a	\
++	-L/usr/local/lib \
++	-lfuse
++endif
+ 
+ install-data-hook:
+ 	cd "$(DESTDIR)/$(moddir)" && rm -f $(mod_LTLIBRARIES)

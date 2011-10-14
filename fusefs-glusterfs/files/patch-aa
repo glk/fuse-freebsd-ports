@@ -1,0 +1,16 @@
+$NetBSD: patch-aa,v 1.6 2011/07/23 01:14:44 manu Exp $
+
+The == operator is a non-standard bash extension. = should be used instead
+--- xlators/mount/fuse/utils/mount_glusterfs.in.orig	2011-07-22 08:57:20.000000000 +0200
++++ xlators/mount/fuse/utils/mount_glusterfs.in	2011-07-22 08:57:29.000000000 +0200
+@@ -164,9 +164,9 @@
+     }
+ 
+     # TODO: use getopt. This is very much darwin specific
+     volfile_loc="$1";
+-    while [ "$volfile_loc" == "-o" ] ; do
++    while [ "$volfile_loc" = "-o" ] ; do
+ 	shift ;
+ 	shift ;
+ 	volfile_loc="$1";
+     done

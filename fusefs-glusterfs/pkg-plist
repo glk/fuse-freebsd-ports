@@ -1,0 +1,170 @@
+%%ETCDIR%%/glusterd.vol
+%%ETCDIR%%/glusterfs.vol.sample
+%%ETCDIR%%/glusterfsd.vol.sample
+%%ETCDIR%%/xattr-init.sh
+lib/glusterfs/3.2.2/auth/addr.la
+lib/glusterfs/3.2.2/auth/addr.so
+lib/glusterfs/3.2.2/auth/addr.so.0
+lib/glusterfs/3.2.2/auth/login.la
+lib/glusterfs/3.2.2/auth/login.so
+lib/glusterfs/3.2.2/auth/login.so.0
+lib/glusterfs/3.2.2/rpc-transport/socket.la
+lib/glusterfs/3.2.2/rpc-transport/socket.so
+lib/glusterfs/3.2.2/rpc-transport/socket.so.0
+lib/glusterfs/3.2.2/xlator/cluster/afr.la
+lib/glusterfs/3.2.2/xlator/cluster/afr.so
+lib/glusterfs/3.2.2/xlator/cluster/afr.so.0
+lib/glusterfs/3.2.2/xlator/cluster/dht.la
+lib/glusterfs/3.2.2/xlator/cluster/dht.so
+lib/glusterfs/3.2.2/xlator/cluster/dht.so.0
+lib/glusterfs/3.2.2/xlator/cluster/distribute.so
+lib/glusterfs/3.2.2/xlator/cluster/nufa.la
+lib/glusterfs/3.2.2/xlator/cluster/nufa.so
+lib/glusterfs/3.2.2/xlator/cluster/nufa.so.0
+lib/glusterfs/3.2.2/xlator/cluster/pump.la
+lib/glusterfs/3.2.2/xlator/cluster/pump.so
+lib/glusterfs/3.2.2/xlator/cluster/pump.so.0
+lib/glusterfs/3.2.2/xlator/cluster/replicate.so
+lib/glusterfs/3.2.2/xlator/cluster/stripe.la
+lib/glusterfs/3.2.2/xlator/cluster/stripe.so
+lib/glusterfs/3.2.2/xlator/cluster/stripe.so.0
+lib/glusterfs/3.2.2/xlator/cluster/switch.la
+lib/glusterfs/3.2.2/xlator/cluster/switch.so
+lib/glusterfs/3.2.2/xlator/cluster/switch.so.0
+lib/glusterfs/3.2.2/xlator/debug/error-gen.la
+lib/glusterfs/3.2.2/xlator/debug/error-gen.so
+lib/glusterfs/3.2.2/xlator/debug/error-gen.so.0
+lib/glusterfs/3.2.2/xlator/debug/io-stats.la
+lib/glusterfs/3.2.2/xlator/debug/io-stats.so
+lib/glusterfs/3.2.2/xlator/debug/io-stats.so.0
+lib/glusterfs/3.2.2/xlator/debug/trace.la
+lib/glusterfs/3.2.2/xlator/debug/trace.so
+lib/glusterfs/3.2.2/xlator/debug/trace.so.0
+lib/glusterfs/3.2.2/xlator/encryption/rot-13.la
+lib/glusterfs/3.2.2/xlator/encryption/rot-13.so
+lib/glusterfs/3.2.2/xlator/encryption/rot-13.so.0
+lib/glusterfs/3.2.2/xlator/features/access-control.so
+lib/glusterfs/3.2.2/xlator/features/locks.la
+lib/glusterfs/3.2.2/xlator/features/locks.so
+lib/glusterfs/3.2.2/xlator/features/locks.so.0
+lib/glusterfs/3.2.2/xlator/features/mac-compat.la
+lib/glusterfs/3.2.2/xlator/features/mac-compat.so
+lib/glusterfs/3.2.2/xlator/features/mac-compat.so.0
+lib/glusterfs/3.2.2/xlator/features/marker.la
+lib/glusterfs/3.2.2/xlator/features/marker.so
+lib/glusterfs/3.2.2/xlator/features/marker.so.0
+lib/glusterfs/3.2.2/xlator/features/posix-locks.so
+lib/glusterfs/3.2.2/xlator/features/quiesce.la
+lib/glusterfs/3.2.2/xlator/features/quiesce.so
+lib/glusterfs/3.2.2/xlator/features/quiesce.so.0
+lib/glusterfs/3.2.2/xlator/features/quota.la
+lib/glusterfs/3.2.2/xlator/features/quota.so
+lib/glusterfs/3.2.2/xlator/features/quota.so.0
+lib/glusterfs/3.2.2/xlator/features/read-only.la
+lib/glusterfs/3.2.2/xlator/features/read-only.so
+lib/glusterfs/3.2.2/xlator/features/read-only.so.0
+lib/glusterfs/3.2.2/xlator/mgmt/glusterd.la
+lib/glusterfs/3.2.2/xlator/mgmt/glusterd.so
+lib/glusterfs/3.2.2/xlator/mgmt/glusterd.so.0
+lib/glusterfs/3.2.2/xlator/mount/fuse.la
+lib/glusterfs/3.2.2/xlator/mount/fuse.so
+lib/glusterfs/3.2.2/xlator/mount/fuse.so.0
+lib/glusterfs/3.2.2/xlator/nfs/server.la
+lib/glusterfs/3.2.2/xlator/nfs/server.so
+lib/glusterfs/3.2.2/xlator/nfs/server.so.0
+lib/glusterfs/3.2.2/xlator/performance/io-cache.la
+lib/glusterfs/3.2.2/xlator/performance/io-cache.so
+lib/glusterfs/3.2.2/xlator/performance/io-cache.so.0
+lib/glusterfs/3.2.2/xlator/performance/io-threads.la
+lib/glusterfs/3.2.2/xlator/performance/io-threads.so
+lib/glusterfs/3.2.2/xlator/performance/io-threads.so.0
+lib/glusterfs/3.2.2/xlator/performance/quick-read.la
+lib/glusterfs/3.2.2/xlator/performance/quick-read.so
+lib/glusterfs/3.2.2/xlator/performance/quick-read.so.0
+lib/glusterfs/3.2.2/xlator/performance/read-ahead.la
+lib/glusterfs/3.2.2/xlator/performance/read-ahead.so
+lib/glusterfs/3.2.2/xlator/performance/read-ahead.so.0
+lib/glusterfs/3.2.2/xlator/performance/stat-prefetch.la
+lib/glusterfs/3.2.2/xlator/performance/stat-prefetch.so
+lib/glusterfs/3.2.2/xlator/performance/stat-prefetch.so.0
+lib/glusterfs/3.2.2/xlator/performance/write-behind.la
+lib/glusterfs/3.2.2/xlator/performance/write-behind.so
+lib/glusterfs/3.2.2/xlator/performance/write-behind.so.0
+lib/glusterfs/3.2.2/xlator/protocol/client.la
+lib/glusterfs/3.2.2/xlator/protocol/client.so
+lib/glusterfs/3.2.2/xlator/protocol/client.so.0
+lib/glusterfs/3.2.2/xlator/protocol/server.la
+lib/glusterfs/3.2.2/xlator/protocol/server.so
+lib/glusterfs/3.2.2/xlator/protocol/server.so.0
+lib/glusterfs/3.2.2/xlator/storage/posix.la
+lib/glusterfs/3.2.2/xlator/storage/posix.so
+lib/glusterfs/3.2.2/xlator/storage/posix.so.0
+lib/glusterfs/3.2.2/xlator/system/posix-acl.la
+lib/glusterfs/3.2.2/xlator/system/posix-acl.so
+lib/glusterfs/3.2.2/xlator/system/posix-acl.so.0
+lib/glusterfs/3.2.2/xlator/testing/features/trash.la
+lib/glusterfs/3.2.2/xlator/testing/features/trash.so
+lib/glusterfs/3.2.2/xlator/testing/features/trash.so.0
+lib/glusterfs/3.2.2/xlator/testing/performance/symlink-cache.la
+lib/glusterfs/3.2.2/xlator/testing/performance/symlink-cache.so
+lib/glusterfs/3.2.2/xlator/testing/performance/symlink-cache.so.0
+lib/libgfrpc.la
+lib/libgfrpc.so
+lib/libgfrpc.so.0
+lib/libgfxdr.a
+lib/libgfxdr.la
+lib/libgfxdr.so
+lib/libgfxdr.so.0
+lib/libglusterfs.a
+lib/libglusterfs.la
+lib/libglusterfs.so
+lib/libglusterfs.so.0
+sbin/gluster
+sbin/glusterd
+sbin/glusterfs
+sbin/glusterfsd
+sbin/mount.glusterfs
+%%DOCSDIR%%/benchmarking/README
+%%DOCSDIR%%/benchmarking/glfs-bm.c
+%%DOCSDIR%%/benchmarking/launch-script.sh
+%%DOCSDIR%%/benchmarking/local-script.sh
+%%DOCSDIR%%/benchmarking/rdd.c
+%%DOCSDIR%%/examples/README
+%%DOCSDIR%%/examples/filter.vol
+%%DOCSDIR%%/examples/io-cache.vol
+%%DOCSDIR%%/examples/io-threads.vol
+%%DOCSDIR%%/examples/posix-locks.vol
+%%DOCSDIR%%/examples/protocol-client.vol
+%%DOCSDIR%%/examples/protocol-server.vol
+%%DOCSDIR%%/examples/read-ahead.vol
+%%DOCSDIR%%/examples/replicate.vol
+%%DOCSDIR%%/examples/stripe.vol
+%%DOCSDIR%%/examples/trace.vol
+%%DOCSDIR%%/examples/trash.vol
+%%DOCSDIR%%/examples/unify.vol
+%%DOCSDIR%%/examples/write-behind.vol
+%%DOCSDIR%%/glusterfs-mode.el
+%%DOCSDIR%%/glusterfs.vim
+@dirrm %%DOCSDIR%%/examples
+@dirrm %%DOCSDIR%%/benchmarking
+@dirrm lib/glusterfs/3.2.2/xlator/testing/performance
+@dirrm lib/glusterfs/3.2.2/xlator/testing/features
+@dirrm lib/glusterfs/3.2.2/xlator/testing
+@dirrm lib/glusterfs/3.2.2/xlator/system
+@dirrm lib/glusterfs/3.2.2/xlator/storage
+@dirrm lib/glusterfs/3.2.2/xlator/protocol
+@dirrm lib/glusterfs/3.2.2/xlator/performance
+@dirrm lib/glusterfs/3.2.2/xlator/nfs
+@dirrm lib/glusterfs/3.2.2/xlator/mount
+@dirrm lib/glusterfs/3.2.2/xlator/mgmt
+@dirrm lib/glusterfs/3.2.2/xlator/features
+@dirrm lib/glusterfs/3.2.2/xlator/encryption
+@dirrm lib/glusterfs/3.2.2/xlator/debug
+@dirrm lib/glusterfs/3.2.2/xlator/cluster
+@dirrm lib/glusterfs/3.2.2/xlator
+@dirrm lib/glusterfs/3.2.2/rpc-transport
+@dirrm lib/glusterfs/3.2.2/auth
+@dirrm lib/glusterfs/3.2.2
+@dirrm lib/glusterfs
+@exec mkdir -p %D/var/run
+@exec mkdir -p %D/var/log/glusterfs

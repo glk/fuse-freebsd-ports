@@ -1,0 +1,18 @@
+--- configure.ac.orig	2009-12-24 12:38:06.000000000 +0000
++++ configure.ac	2011-07-09 13:54:03.000000000 +0100
+@@ -15,6 +15,7 @@
+ case $target_os in
+      *linux*)	arch=linux;;
+      *darwin*)	arch=darwin;;
++     *freebsd*) arch=freebsd;;
+      *)			arch=unknown;;
+ esac
+ 
+@@ -193,6 +194,7 @@
+ 
+ AM_CONDITIONAL(LINUX, test "$arch" = linux)
+ AM_CONDITIONAL(DARWIN, test "$arch" = darwin)
++AM_CONDITIONAL(FREEBSD, test "$arch" = freebsd)
+ 
+ AC_CONFIG_FILES([
+ 	fuse-ext2.pc
